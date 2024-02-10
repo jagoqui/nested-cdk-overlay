@@ -34,7 +34,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "mis-aliados-styles.css",
+                "input": "node_modules/mis-aliados-library/assets/ma-scss",
+                "output": "/assets/ma-scss/"
+              }
             ],
             "styles": [
               "src/styles.scss"
@@ -107,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "20a0f11b-d7b9-4891-a5b5-c6ac5cbb800f"
   }
 }
